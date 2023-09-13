@@ -40,7 +40,7 @@ export const GroupCards = () => {
   return (
     <div>
 
-      <h2 className="text-center text-2xl font-bold my-4">Tendencias</h2>
+      <h2 className="text-center text-2xl font-bold my-4 ">Tendencias</h2>
 
       <div className="mx-10 ">
         <Swiper

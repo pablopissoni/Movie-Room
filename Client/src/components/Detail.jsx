@@ -26,7 +26,8 @@ export const Detail = () => {
   let size = "w500";
   //* ---------------------------
   return (
-    <section className="bg-white dark:bg-gray-900 ">
+    <section className="bg-white dark:bg-gray-900 h-screen ">
+        <img className="w-full  opacity-5 object-cover absolute" src={`https://image.tmdb.org/t/p/${size}/${detail.backdrop_path}`} alt="piratas del caribe" />
       <div className="container px-6 py-10 mx-auto">
         <div className="lg:-mx-6 lg:flex lg:items-center">
           <img
@@ -78,7 +79,7 @@ export const Detail = () => {
 
                     <ul>
                       {detail?.spoken_languages?.map((language, index) => (
-                        <li key={language.index} className="inline-block mr-2">
+                        <li key={index} className="inline-block mr-2">
                           <p className="text-gray-600 dark:text-gray-500">
                             {language.english_name},
                           </p>

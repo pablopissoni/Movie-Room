@@ -5,7 +5,7 @@ import { SerchBar } from '../SerchBar'
 
 export const HomePage = () => {
   return (
-    <div>
+    <div className=''>
         {/* <NavBar /> */}
         <SerchBar />
         <GroupCards />
