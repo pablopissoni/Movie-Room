@@ -31,7 +31,7 @@ export const Detail = () => {
       <div className="container px-6 py-10 mx-auto">
         <div className="lg:-mx-6 lg:flex lg:items-center">
           <img
-            className="object-cover object-center ml-4 w-full  rounded-lg  w-[500px] h-[750px]"
+            className="object-cover object-center ml-4  rounded-lg  w-[500px] h-[750px]"
             src={`https://image.tmdb.org/t/p/${size}/${detail.poster_path}`}
             alt="imagen de pelicula"
           />
